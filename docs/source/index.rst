@@ -11,23 +11,22 @@
 | У різних сферах назви, що надаються ресурсам, визначаються правилами, галузевими нормами або технологічними факторами.
 | Ми обговоримо деякі проблеми найменування та принципи, які допомагають нам називати речі корисним способом.
 
-Why is this so important?
+Чому це так важливо?
 
-| Naming can be related to our understanding of the essence of things. This becomes clear when we use names that accurately describe or capture the main aspects of a subject. 
-| This can help not only in precise identification but also in creating a deeper awareness of relationships and interactions in the studied subject area.
+| Найменування може бути пов'язане з нашим розумінням сутності речей. Це стає очевидним, коли ми використовуємо назви, які точно описують або відображають основні аспекти предмета.
+| Це може допомогти не лише у точній ідентифікації, але й у створенні глибшого усвідомлення взаємозв'язків і взаємодій у досліджуваній предметній області.
 
 .. note::
-   | "Now the Lord God had formed out of the ground all the wild animals and all the birds in the sky. 
-   | He brought them to the man to see what he would name them; and whatever the man called each living creature, that was its name."
-   | *Genesis 2:19*
+| "Господь Бог утворив із землі всіх диких тварин і всіх птахів небесних.
+| І привів їх до людини, щоб побачити, як він їх назве; і як людина назве кожну живу істоту, таке й буде її ім’я."
+| Буття 2:19
 
-   | Assigning names in this context has symbolic significance. In ancient societies, a name was extremely important.
-   | By giving Adam the ability to name the animals, God demonstrates trust and faith in his ability to perceive and understand the world. 
-   | The process of naming animals can also be interpreted as a gift of participation and management to humans.
-   | It represents an opportunity for humans to demonstrate care and knowledge about the world around them, emphasizing responsibility for the surrounding world.
+| Іменування у цьому контексті має символічне значення. У давніх суспільствах ім’я було надзвичайно важливим.
+| Даючи Адаму можливість називати тварин, Бог демонструє довіру і віру в його здатність сприймати і розуміти світ.
+| Процес називання тварин також можна інтерпретувати як дар участі та управління для людей.
+| Це представляє можливість для людей продемонструвати турботу та знання про світ навколо них, підкреслюючи відповідальність за навколишній світ.
 
-Assigning names to anything, from business to concepts and actions, can be a difficult process, and it can be done well or poorly.
-
+Присвоєння імен будь-чому, від бренду до концепцій, може бути складним процесом, і його можна виконати добре або погано.
 
 Naming issues
 **********
