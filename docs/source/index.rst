@@ -28,31 +28,31 @@
 
 Присвоєння імен будь-чому, від бренду до концепцій, може бути складним процесом, і його можна виконати добре або погано.
 
-Naming issues
+Проблеми найменування
 **********
 
 
-Ambiguity and the problem of vocabulary
+Двозначність і проблема словникового запасу
 ===========
 
-| There's no absolute best word to name something - this is known as the vocabulary issue.
-| Natural languages give many options to express ideas. Typically, there are multiple words to represent the same object or concept.
-| People choose to name or describe things based on their experience and context, so they often disagree about the words they use. 
-| This often surprises people because what feels like a natural name to one person might not feel the same to someone else.
+
+| Немає абсолютного найкращого слова для найменування чогось — це відомо як проблема словникового запасу.  
+| Природні мови надають багато варіантів для вираження ідей. Як правило, існує кілька слів для позначення одного і того ж об'єкта або концепції.  
+| Люди обирають назви або описи речей на основі свого досвіду та контексту, тому часто виникають розбіжності в тому, які слова вони використовують.  
+| Це часто дивує людей, оскільки те, що здається природним ім’ям для однієї особи, може не бути таким же для іншої.
 
 
-Homonymy, polysemy, and false cognates
+Омонімія, полісемія та помилкові споріднення
 ===========
 
-| Words that sound alike, words with multiple meanings, and words that look similar but mean different things.
-| Sometimes, the same word can refer to different resources: ``bank`` can mean a financial institution or the edge of a river. 
-| Resources with names that sound alike or have many meanings can be mistaken or incorrectly identified, especially by automated processes that cannot use common sense or context. 
+| Слова, що звучать однаково, слова з кількома значеннями та слова, що виглядають подібно, але мають різні значення.  
+| Іноді одне й те саме слово може позначати різні ресурси: ``bank`` може означати фінансову установу або край річки.  
+| Ресурси з назвами, що звучать однаково або мають багато значень, можуть бути неправильно ідентифіковані або переплутані, особливо автоматичними процесами, які не можуть використовувати здоровий глузд чи контекст.
 
-| When a word means something else in another language, it can result in humor or serious problems.
-| ``Gift`` in German means ``poison`` and ``pain`` in French means ``bread``.
+| Коли слово має інше значення в іншій мові, це може призвести до гумору або серйозних проблем.  
+| ``Gift`` німецькою означає ``отрута``, а ``pain`` французькою означає ``хліб``.
 
-
-Names with unwanted associations
+Назви з небажаними асоціаціями
 ===========
 
 False cognates can lead to poor names and marketing mistakes. 
