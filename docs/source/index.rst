@@ -42,7 +42,7 @@
 | Це часто дивує людей, оскільки те, що здається природним ім’ям для однієї особи, може не бути таким же для іншої.
 
 
-Омонімія та полісемія
+Омонімія, полісемія та помилкові споріднення
 ===========
 
 | Слова, що звучать однаково, слова з кількома значеннями та слова, що виглядають подібно, але мають різні значення.  
@@ -50,77 +50,77 @@
 | Ресурси з назвами, що звучать однаково або мають багато значень, можуть бути неправильно ідентифіковані або переплутані, особливо автоматичними процесами, які не можуть використовувати здоровий глузд чи контекст.
 
 
-Назви з небажаними асоціаціями та помилкові споріднення
+Назви з небажаними асоціаціями
 ===========
 
-Помилкові споріднення можуть призвести до поганих назв і репутаційних помилок.
+Такі асоціації можуть призвести до поганих назв і репутаційних помилок.
 
 .. note::
    Наприклад, числа можуть мати різні асоціації в різних культурах: в одній культурі число 8 цінується за свою асоціацію з багатством, тоді як в іншій числу 4 бояться через його зв'язок з смертю, або будівлі пропускають 13-й поверх у західних культурах через забобони.
 
 Деякі продукти мають проблеми через мовні відмінності.
-| Коли слово має інше значення в іншій мові, це може призвести до гумору або серйозних проблем.  
-| ``Gift`` німецькою означає ``отрута``, а ``pain`` французькою означає ``хліб``.
+Коли слово має інше значення в іншій мові, це може призвести до гумору або непорозумінь.
+``Gift`` німецькою означає ``отрута``, а ``pain`` французькою означає ``хліб``.
 
 .. note::
    Наприклад, Mitsubishi Pajero мав негативні конотації в іспанській мові, тому в США його назвали Montero, щоб уникнути негативних асоціацій і підтримати позитивний імідж.
 
-Ігнорування упереджень і ідей про назви може здаватися незначним, але це може спричинити великі проблеми.
+Ігнорування упереджень і ідей про назви може здаватися незначним, але це може мати негативні наслідки.
 
 
-Discrimination
+Упередженість
 ===========
 
-| Alphabetical Bias: 
-| While organizing resources alphabetically may seem fair, it can introduce a bias toward names beginning with letters early in the alphabet.
-| This sets up a scenario where resources listed earlier gain an advantage, overlooking the merits and potential of others.
+Алфавітна упередженість:
+| Хоча організація ресурсів за алфавітом може здаватися справедливою, вона може вводити упередження на користь імен, які починаються з літер, розташованих на початку алфавіту.
+| Це створює ситуацію, коли ресурси, розташовані раніше, отримують перевагу, нехтуючи достоїнствами та потенціалом інших.
 
-| Length Restrictions:
-| Systems that limit the length of names might disadvantage individuals with longer names, leading to truncation or exclusion of parts of their names.
+Обмеження довжини:
+| Системи, які обмежують довжину імен, можуть створити незручності для осіб з довшими іменами, що призводить до скорочення або виключення частин їхніх імен. Наприклад ранні версії баз данних підтримували назви таблиц та полей до 30 символів.
 
-| Localization: 
-| When systems are not localized for different regions or languages, they might not accommodate specific naming customs or variations, leading to exclusion or misrepresentation.
+Локалізація:
+| Коли системи не адаптовані до різних регіонів або мов, вони можуть не враховувати специфічні звичаї найменування або варіації, що призводить до виключення або викривлення інформації.
 
 
-Names that assume impermanent attributes
+Назви, що передбачають непостійні атрибути
 ===========
 
-Many resources are given names based on attributes that can become problematic later if the value or interpretation of the attribute changes.
+Багато ресурсів отримують назви на основі атрибутів, які можуть стати проблемними згодом, якщо значення або інтерпретація цього атрибуту зміняться.
 
 .. note::
-   "Kentucky Fried Chicken" started in 1930 as a small cafe in Corbin, Kentucky, becoming one of the first international fast-food chains. In 1987, they opened their first restaurant in China and soon shortened the name to "KFC," considering that many outside Kentucky, such as Beijing or London, might not be familiar with their location.
+   "Kentucky Fried Chicken" був заснований у 1930 році як невелике кафе в Корбіні, штат Кентуккі, і став однією з перших міжнародних мереж швидкого харчування. У 1987 році вони відкрили свій перший ресторан у Китаї й незабаром скоротили назву до "KFC", враховуючи, що багато людей за межами Кентуккі, наприклад у Пекіні чи Лондоні, можуть не бути знайомі з їхнім розташуванням.
 
-Some companies use dates or years in their names to indicate a future orientation.
-
-.. note::
-   For example, the film studio "20th Century Fox" chose this name in the 1930s for its progressive and forward-thinking identity, but today, such a name might have the opposite effect.
-
-
-The semantic gap
-===========
-
-| The semantic gap refers to a lack of understanding of information stored in data. 
-| This lack of understanding can vary among users or between users and data creators.
-| It arises from differences in describing and naming resources when automated processes use technical but uninformative labels that differ from human preferences.
-
-Names such as ``IMG30467.jpg`` on a digital photo might make sense for the camera during sequential image storage, but they are inconvenient for humans. 
-We prefer names that describe the content of the image, for instance, ``MyBeautifulGarden.jpg``
-
-
-Long names
-===========
-
-Very long names can be hard to use and make the code look messy.
-Adding too much information to names can make them confusing and repeat things.
-
-
-Inconsistency
-===========
-
-The lack of a unified naming style leads to confusion within a project or across projects.
+Деякі компанії використовують дати або роки в своїх назвах, щоб підкреслити орієнтацію на майбутнє.
 
 .. note::
-   In 2008, Last.fm's music recommendations employee Richard Jones compiled a list of the 100 most frequently described recordings of Guns N' Roses' cover of Bob Dylan's song 'Knockin' on Heaven's Door
+   Наприклад, кіностудія "20th Century Fox" обрала цю назву у 1930-х роках, щоб підкреслити свою прогресивність і орієнтацію на майбутнє, але сьогодні така назва може мати протилежний ефект.
+
+
+Семантичний розрив
+===========
+
+Семантичний розрив відноситься до недостатнього розуміння інформації, що зберігається в даних.  
+Цей брак розуміння може варіюватися між користувачами або між користувачами і творцями даних.  
+Він виникає через різницю в описанні та найменуванні ресурсів, коли автоматизовані процеси використовують технічні, але непоінформативні етикетки, які відрізняються від людських уподобань.
+
+Назви, такі як ``IMG30467.jpg`` на цифровому фото, можуть мати сенс для камери під час послідовного зберігання зображень, але вони є незручними для людей.  
+Ми надаємо перевагу назвам, які описують зміст зображення, наприклад, ``MyBeautifulGarden.jpg``.
+
+
+Довгі назви
+===========
+
+Дуже довгі назви можуть бути важкими для використання і роблять код неохайним.  
+Додавання занадто багато інформації до назв може зробити їх заплутаними та повторювати одні й ті ж відомості.
+
+
+Непослідовність
+===========
+
+Відсутність єдиного стилю найменування призводить до плутанини всередині проекту або між різними проектами.
+
+.. note::
+   У 2008 році співробітник Last.fm, відповідальний за рекомендації музики, Річард Джонс, склав список з 100 найчастіше описуваних записів кавер-версії пісні Боба Ділана "Knockin' on Heaven's Door" у виконанні Guns N' Roses.
 
 
 .. code-block:: concole
@@ -153,7 +153,7 @@ The lack of a unified naming style leads to confusion within a project or across
     Guns N Roses - Knocking On Heaven's Door
     Guns N' Roses - Heaven's Knockin On Door
 
-The inconsistent use of upper and lower case makes names less readable and harder to identify.
+Непослідовне використання великих і малих літер робить назви менш читабельними і складнішими для ідентифікації.
 
   .. code-block:: concole
 
@@ -169,22 +169,22 @@ The inconsistent use of upper and lower case makes names less readable and harde
         └── your_resource
 
 
-Unclear abbreviations and acronyms
+Нечіткі абревіатури та акроніми
 ===========
 
-| The problem of unclear abbreviations arises when projects or teams use abbreviations or acronyms that are not explained or widely known.
-| This can lead to misunderstanding among team members, confusion within the project, and even conflicts due to different interpretations of the abbreviations.
+| Проблема нечітких абревіатур виникає, коли проекти або команди використовують абревіатури чи акроніми, які не пояснені або не є загальновідомими.
+| Це може призвести до непорозумінь серед членів команди, плутанини всередині проекту і навіть конфліктів через різні інтерпретації абревіатур.
 
-For example, the abbreviation **JK** might refer to an employee, John Kowalski, but not everyone will understand it. **PM** could mean Project Manager or Product Marketing, causing confusion in context.
+Наприклад, абревіатура **JK** може відноситися до співробітника Джона Ковальського, але не всі можуть зрозуміти це. **PM** може означати Project Manager або Product Marketing, що викликає плутанину в контексті.
 
-Acronyms like:
+Такі терміни як:
    * ``PDCA`` -> Plan-Do-Check-Act
    * ``TPS`` -> Transactions Per Second
    * ``SPA`` -> Single Page Application
    * ``DNA`` -> Deoxyribonucleic Acid
    * ``STEM`` -> Science, Technology, Engineering, Mathematics
    * ``CAGR`` -> Compound Annual Growth Rate
-may be unclear to non-professionals or newcomers
+можуть бути незрозумілі для непрофесіоналів або новачків
    
 
 Unclear names
