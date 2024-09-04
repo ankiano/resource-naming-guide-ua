@@ -27,6 +27,7 @@
 | Це представляє можливість для людей продемонструвати турботу та знання про світ навколо них, підкреслюючи відповідальність за навколишній світ.
 
 Присвоєння імен будь-чому, від бренду до концепцій, може бути складним процесом, і його можна виконати добре або погано.
+Тож давайте розглянемо як основні проблеми яких можно уникати та основні способи та підходи як можна робити імена та назви гарними.
 
 Проблеми найменування
 **********
@@ -71,14 +72,14 @@
 Упередженість
 ===========
 
-Алфавітна упередженість:
+| Алфавітна упередженість:
 | Хоча організація ресурсів за алфавітом може здаватися справедливою, вона може вводити упередження на користь імен, які починаються з літер, розташованих на початку алфавіту.
 | Це створює ситуацію, коли ресурси, розташовані раніше, отримують перевагу, нехтуючи достоїнствами та потенціалом інших.
 
-Обмеження довжини:
+| Обмеження довжини:
 | Системи, які обмежують довжину імен, можуть створити незручності для осіб з довшими іменами, що призводить до скорочення або виключення частин їхніх імен. Наприклад ранні версії баз данних підтримували назви таблиц та полей до 30 символів.
 
-Локалізація:
+| Локалізація:
 | Коли системи не адаптовані до різних регіонів або мов, вони можуть не враховувати специфічні звичаї найменування або варіації, що призводить до виключення або викривлення інформації.
 
 
@@ -187,40 +188,39 @@
 можуть бути незрозумілі для непрофесіоналів або новачків
    
 
-Unclear names
+Нечіткі назви
 ===========
 
 Names that don't show what something is can make it hard to use and cause mistakes or slow work down.
 
 ``temp``
-  This name might be used for temporary variables in code, tables, or directories, but it doesn't provide information about what exactly is stored in this variable or what it's used for.
+  Ця назва може використовуватися для тимчасових змінних у коді, таблицях чи каталогах, але вона не надає інформації про те, що саме зберігається в цій змінній або для чого вона використовується.
 ``misc``
-  An abbreviation for 'miscellaneous,' often used to group various items. However, this name is not informative, failing to indicate the specific components or purpose of this group.
+  Абревіатура для "miscellaneous" (різне), часто використовувана для групування різних елементів. Однак ця назва не є інформативною, оскільки не вказує на конкретні компоненти або мету цієї групи.
 ``data``
-  The name 'data' might be used for various datasets, but by itself, it doesn't convey the nature or format of these data.
+  Назва 'data' може використовуватися для різних наборів даних, але сама по собі вона не передає характер або формат цих даних.
 ``new``
-  These names can become problematic over time as they remain undefined and become less informative when the **newness** fades or another version emerges. 
-  In some cases, you might encounter abbreviations like **new_new** or **newer**, indicating something was new but has now become outdated or replaced by a newer version.
+  Такі назви можуть стати проблематичними з часом, оскільки залишаються невизначеними і стають менш інформативними, коли **новизна** згасає або з'являється нова версія.
+  У деяких випадках ви можете зустріти абревіатури типу **new_new** або **newer**, що вказують на те, що щось було новим, але тепер стало застарілим або заміненим новішою версією.
 
 
-Choosing good names and identifiers
+Вибір хороших назв і ідентифікаторів
 **********
 
-Make names informative
+Зробіть назви інформативними
 ===========
 
-| The most fundamental principle in naming is to select informative names that facilitate understanding.
-| Use names that are intuitive and easy to remember.
-| Avoid using generic or universal names.
+| Найбільш основний принцип найменування — вибрати інформативні назви, які сприяють розумінню.  
+| Використовуйте назви, які є інтуїтивно зрозумілими та легкими для запам'ятовування.  
+| Уникайте використання загальних або універсальних назв.
 
-
-Avoid overly long names
+Уникайте надто довгих назв
 ===========
 
-| This rule says that really long names make it hard to understand and can reduce work efficiency. 
-| Also, shorter names mean there's less chance of having two names that are the same but in a different order of words.
-| This naming rule is like to **Occam's razor**, suggesting that the simplest solution is often the best.
-| It's important to make names shorter to its core meaning by removing unnecessary words or phrases.
+| Це правило говорить про те, що дуже довгі назви ускладнюють розуміння і можуть зменшити ефективність роботи.  
+| Крім того, коротші назви зменшують ймовірність наявності двох назв, які є однаковими, але в різному порядку слів.  
+| Це правило найменування схоже на **Бритву Оккама**, що пропонує, що найпростіше рішення часто є найкращим.  
+| Важливо скоротити назви до їхньої основної сутності, видаляючи непотрібні слова чи фрази.
 
 .. tip::
    | calculate_total_sum_of_items_in_shopping_cart_and_apply_discount_and_add_tax
@@ -239,83 +239,83 @@ Avoid overly long names
    | ↓
    | **card_issue_intro**
 
-| Identify the main keywords or concepts most important for describing an object or process. 
-| Then use them in a brief manner. If details or specifications are not crucial for understanding, they can be simplified or excluded from the name. 
-| There's also a technique known as **shrinking to sense** or **reducing to ultimate meaning**. 
-| It means systematically removing words or parts of a phrase while retaining the core meaning, stopping when further removal would cause loss of sense.
+| Визначте основні ключові слова або концепції, які є найважливішими для опису об'єкта або процесу.  
+| Потім використовуйте їх у стислому вигляді. Якщо деталі або специфікації не є критичними для розуміння, їх можна спростити або виключити з назви.  
+| Існує також техніка, відома як **зменшення до сенсу** або **зменшення до основного значення**.  
+| Це означає систематичне видалення слів або частин фрази, зберігаючи основне значення, і зупинка, коли подальше видалення призведе до втрати сенсу.
 
 .. tip::
-   | You can progressively remove words:
-   | For instance, let's consider the lengthy title
+   | Ви можете поступово видаляти слова:
+   | Наприклад, розглянемо довгу назву
    | Adaptive project execution plan based on risk analysis and internal factors
    | └── Adaptive project execution plan based on risk analysis and internal factors
    |     └── Adaptive project execution plan based on risk analysis
    |         └── Adaptive project execution plan
    |             └── Project execution plan
 
-  Continuing this way until the essential meaning is retained.
+   Продовжуючи таким чином, поки не буде збережено основне значення.
 
 
-Consistency
+Послідовність
 **********
 
-| Consistency is a characteristic that reflects the degree of stability, uniformity, or constancy in something. 
-| Maintaining a unified naming style throughout a project or organization helps achieve this. 
-| Using naming rules makes code or systems look the same and easy to read. This helps people work together and share information among developers, analysts, and other project participants.
+| Послідовність — це характеристика, яка відображає ступінь стабільності, однорідності або постійності в чомусь.  
+| Збереження єдиного стилю найменування протягом всього проекту або організації допомагає досягти цього.  
+| Використання правил найменування робить код або системи виглядати однорідно та легким для читання. Це допомагає людям працювати разом і обмінюватися інформацією між розробниками, аналітиками та іншими учасниками проекту.
 
-Standards and conventions may specifically relate to formatting, like selecting a preferred style for compound names.
+Стандарти та конвенції можуть безпосередньо стосуватися форматування, наприклад, вибору переважного стилю для складених назв.
 
 ``camelCase``
-  Each new word starts with a capital letter, without spaces. Example: myVariableName, calculateInterestRate.
+  Кожне нове слово починається з великої літери, без пробілів. Приклад: myVariableName, calculateInterestRate.
 ``PascalCase``
-  Similar to camelCase, but the first letter is also capitalized. Commonly used for class and data type names. Example: MyClass, CalculateInterest.
+  Схоже на camelCase, але перша літера також написана з великої літери. Зазвичай використовується для назв класів і типів даних. Приклад: MyClass, CalculateInterest.
 ``snake_case``
-  Words are separated by an underscore, usually in all lowercase letters. Example: my_variable_name, calculate_interest_rate.
+  Слова розділені підкресленням, зазвичай у всіх малих літерах. Приклад: my_variable_name, calculate_interest_rate.
 ``kebab-case``
-  Words are separated by a hyphen, generally in all lowercase. Often used in URLs and file names. Example: my-variable-name, calculate-interest-rate.
+  Слова розділені дефісом, зазвичай у всіх малих літерах. Часто використовуються в URL-адресах та іменах файлів. Приклад: my-variable-name, calculate-interest-rate.
 ``MixedCase``
-  Represents a mixed style where different parts of words may have different cases. Example: iOSDevelopment, JavaScriptProgramming.
+  Представляє змішаний стиль, де різні частини слів можуть мати різні регістри. Приклад: iOSDevelopment, JavaScriptProgramming.
 
-Rules can also relate to the order of compound words and their suffixes and prefixes.
+Правила також можуть стосуватися порядку складених слів, їхніх суфіксів і префіксів.
 
 .. tip::
-  | For example, consistently using the word 'intro' at the end when naming screens in a mobile application: 
+  | Наприклад, послідовне використання слова "intro" в кінці при найменуванні екранів у мобільному додатку:
   | `splash_intro`, `select_country_intro`, `select_product_intro`, `verify_income_intro`, `account_app_intro`, `card_issue_intro`, etc. 
-  | It's essential to maintain uniformity.
+  | Важливо підтримувати однорідність.
 
-For complex systems like data warehouses, conventions are often developed using semantic rules to explain the object's meaning by its name.
+Для складних систем, таких як сховища даних, зазвичай розробляються конвенції, що використовують семантичні правила для пояснення значення об'єкта через його назву.
 
-| The *COAST GUARD DATA ELEMENT NAMING STANDARDS* serve as an excellent example.
-| The data object name consists of terms divided into three categories: 
+| Берегова охорона США має * DATA ELEMENT NAMING STANDARDS* та є еталонним прикладом. (Цей документ легко знайти у відкритому доступі)
+| Назва об'єкта даних складається з термінів, поділених на три категорії: 
 
 ``Prime Words``:
-  | Nouns or phrases describing the subject or primary meaning of the name.
-  | Show the data element's place in the logical context of the information model.
-  | For example: ``PARTY``, ``DEAL``, ``CLIENT``, ``EMPLOYEE``, ``CURRENCY``
-  | The prime word imparts meaning to the attribute name, providing the right context for the modifier and classifying words. 
-  | Although there is no standard list of prime words, terms commonly suitable as subjects are usually nouns, representing common things for any organization.
-  | Furthermore, prime words may consist of multiple terms, but brevity is crucial to accommodate the rest of the nominal group within a reasonable name size.
+  | Сутності або фрази, що описують предмет або основне значення назви.  
+  | Показують місце елемента даних у логічному контексті інформаційної моделі.  
+  | Наприклад: ``PARTY``, ``DEAL``, ``CLIENT``, ``EMPLOYEE``, ``CURRENCY``  
+  | Основне слово надає значення назві атрибуту, забезпечуючи правильний контекст для модифікатора та класифікаційних слів.  
+  | Хоча стандартного списку основних слів не існує, терміни, що зазвичай підходять як предмети, зазвичай є іменниками, що представляють загальні речі для будь-якої організації.  
+  | Крім того, основні слова можуть складатися з кількох термінів, але лаконічність є важливою для того, щоб вмістити решту номінальної групи в розумний розмір назви.
 
 ``Classifying Words``:
-  | Indicate categorical differentiation or classification of information.
-  | Describe the main data category associated with the information element.
-  | For example: ``DATE``, ``AMOUNT``, ``QUANTITY``, ``CODE``, ``NAME``, ``DESCRIPTION``, ``IDENTIFIER``, ``RATE``
+  | Вказують на категорійну диференціацію або класифікацію інформації.  
+  | Описують основну категорію даних, пов'язану з інформаційним елементом.  
+  | Наприклад: ``DATE``, ``AMOUNT``, ``QUANTITY``, ``CODE``, ``NAME``, ``DESCRIPTION``, ``IDENTIFIER``, ``RATE``
 
 ``Modifiers``:
-  | Add a description contained in the prime word and classifying words.
-  | Provide clarity and uniqueness to the data object name.
-  | Adjust the prime word and classifying words.
-  | Limit the meaning of the classifying words and prime words.
-  | For example: ``FIRST``, ``LAST``, ``NEXT``, ``BEGIN``, ``END``, ``MAX``, ``MIN``
+  | Додають опис, що міститься в основному слові та класифікаційних словах.  
+  | Забезпечують ясність і унікальність назви об'єкта даних.  
+  | Налаштовують основне слово та класифікаційні слова.  
+  | Обмежують значення класифікаційних слів і основних слів.  
+  | Наприклад: ``FIRST``, ``LAST``, ``NEXT``, ``BEGIN``, ``END``, ``MAX``, ``MIN``
 
-For complex attribute names in a database table, the sequence might look like this:
+Для складних імен атрибутів у таблиці бази даних послідовність може виглядати наступним чином:
 
 .. figure:: /_static/attribute.png
    :width: 150%
    :align: center
    :alt: attribute naming rule
 
-The root part of the attribute name is the class word, which classifies the type of information being represented by the attribute.
+Коренева частина імені атрибута є класовим словом, яке класифікує тип інформації, що представлена атрибутом.
 
 e.g.: PERMANENT_EMPLOYEE_LAST_NAME
   | NAME -> Class Word
@@ -323,111 +323,107 @@ e.g.: PERMANENT_EMPLOYEE_LAST_NAME
   | EMPLOYEE -> Prime Word
   | PERMANENT -> Modifier 1
 
-| Abbreviations and acronyms might be used, and then the field name could appear as PERM_EMPL_LST_NAME which is still readable and understandable.
-| This technique was previously used when there were stricter limitations on name lengths in databases like a 30-character limit.
+| Абревіатури та акроніми можуть бути використані, і тоді ім'я поля може виглядати як PERM_EMPL_LST_NAME, що все ще є читабельним і зрозумілим.  
+| Ця техніка раніше використовувалася, коли були жорсткіші обмеження на довжину імен у базах даних, такі як обмеження в 30 символів.
 
-Avoid abbreviations and acronyms
+Уникайте абревіатур і акронімів
 **********
-| Names should be spelled out entirely whenever possible instead of using abbreviations or acronyms. 
-| Abbreviations can cause confusion or ambiguity and might not be universally understood by all team members or stakeholders, especially newcomers.
+| Назви слід писати повністю, коли це можливо, замість використання абревіатур або акронімів.  
+| Абревіатури можуть викликати плутанину або неоднозначність і можуть бути не зрозумілі всім членам команди або зацікавленим сторонам, особливо новачкам.
 
-However, established domain-specific abbreviations or acronyms that are universally clear within the field are possible:
+Однак можливе використання усталених абревіатур або акронімів, що є загальнозрозумілими в конкретній області:
 
 * API -> application programming interface
 * ROI -> return on investment
 * KPI -> key performance indicator
 * CRM -> customer relationship management
 
-Document your names
+Документуйте ваші назви
 **********
-| When necessary, explain the names and their meanings to the team members. 
-| The technique of documenting names involves providing explanations for names, especially if they might not be obvious or contain specific meanings. 
-| This helps stakeholders better understand the context and purpose of usage.
+| Коли це необхідно, пояснюйте назви та їх значення членам команди.  
+| Техніка документування назв передбачає надання пояснень до назв, особливо якщо вони можуть бути не очевидними або містять специфічні значення.  
+| Це допомагає зацікавленим сторонам краще зрозуміти контекст і мету використання.
 
-For instance:
+Наприклад:
 
 ``calculate_tax``
-  The name itself might be good, but adding a description clarifies which tax is being calculated.
+  Назва сама по собі може бути доброю, але додавання опису уточнює, який саме податок розраховується.
 ``order_status``
-  Adding a description can specify possible status values and their meanings.
+  Додавання опису може уточнити можливі значення статусів та їх значення.
 ``employee_salary``
-  A more detailed explanation could include how an employee's salary is calculated and what parameters are considered.
+  Більш детальне пояснення може включати, як розраховується зарплата співробітника та які параметри враховуються.
 
 
-Use controlled vocabularies
+Використовуйте контрольовані словники
 **********
 
-| One way to encourage the creation of good names for specific resource areas or tasks is by establishing a controlled vocabulary. 
-| A controlled vocabulary is similar to a fixed or closed dictionary that includes terms used in a particular domain. 
-| It reduces the number of words used, minimizes synonymy and homonymy, eliminates undesirable associations, and retains a set of words with clearly defined meanings and rules for their use.
+| Один зі способів сприяти створенню хороших назв для конкретних областей ресурсів або завдань — це встановлення контрольованого словника.  
+| Контрольований словник подібний до фіксованого або закритого словника, що включає терміни, які використовуються в певній галузі.  
+| Це зменшує кількість використовуваних слів, мінімізує синонімію та омонімію, усуває небажані асоціації та зберігає набір слів з чітко визначеними значеннями та правилами їх використання.
 
-| A controlled vocabulary is not only a set of allowed words; it also includes their definitions and often determines the rules by which dictionary terms can be used and combined. 
+| Контрольований словник — це не лише набір дозволених слів; він також включає їхні визначення і часто визначає правила, за якими терміни словника можуть бути використані та комбіновані.
 
 
-Context
+Контекст
 **********
 
-| When naming, consider the context in which names are used. 
-| Ensure that the names make sense within the larger system or process.
+| При найменуванні враховуйте контекст, у якому використовуються назви.  
+| Переконайтеся, що назви мають сенс у рамках більшої системи або процесу.
 
-| Use language specific to your business domain or knowledge familiar to your users or stakeholders. 
-| For example:
+| Використовуйте мову, специфічну для вашої бізнес-області, або знання, знайомі вашим користувачам або зацікавленим сторонам.  
+| Наприклад:
 * Oxford, Dictionary of Finance and Banking
 * Forbes, A Glossary Of Basic Banking Terms
 
 
-Allow aliasing
+Використання псевдонімів
 **********
 
-A controlled vocabulary is highly beneficial for those who use it, but when designing an organizational system for others who might not use or understand it, you need to consider the diversity of words they might use when searching or describing resources.
+Контрольований словник є дуже корисним для тих, хто його використовує, але при проектуванні організаційної системи для інших, які можуть не використовувати або не розуміти його, потрібно враховувати різноманітність слів, які вони можуть використовувати при пошуку або описі ресурсів.
+Наприклад, офіційна назва певного виду риби — *"Amphiprion ocellaris"*, але більшість людей шукатиме її як *"клоунфіш"*, *"риба-анемон"*, або навіть під її більш популярною назвою з фільму Немо.
+Пов'язаний механізм, що використовується системами пошуку, — це перевірка орфографії, де всі помилки в написанні розглядаються як псевдоніми для правильного терміна ("Чи не мали на увазі California?" коли ви написали Califorina).
 
-For instance, the official name of a particular fish species is *"Amphiprion ocellaris"*, but most people would search for it as *"clownfish"*, *"anemone fish"*, or even by its more popular name from the movie Nemo.
-
-A related mechanism used by search systems is spell-checking, where all misspellings are treated as aliases for the correct term ("Did you mean California?" when you typed Califorina").
-
-
-Make names unique or qualified
+Зробіть назви унікальними або придатними
 **********
 
-| While a name refers to one resource, it doesn't mean that two names cannot be identical.
-| Each name or identifier should be unique within its accounting system. 
-| We can prevent or reduce conflicts by adding information about the namespace or domain from which names or identifiers are chosen, creating what is often referred to as fully qualified names.
-| For instance, in the United States, there are several dozen cities named "Springfield" and "Washington," but adding state codes to postal addresses distinguishes between them.
+| Хоча назва відноситься до одного ресурсу, це не означає, що дві назви не можуть бути ідентичними.  
+| Кожна назва або ідентифікатор повинні бути унікальними в межах їхньої облікової системи.  
+| Ми можемо запобігти або зменшити конфлікти, додаючи інформацію про простір імен або домен, з якого вибираються назви або ідентифікатори, створюючи те, що часто називають повністю кваліфікованими назвами.  
+| Наприклад, у США є кілька десятків міст з назвами "Springfield" і "Washington", але додавання кодів штатів до поштових адрес дозволяє розрізняти їх.
 
 
-Use reserved words cautiously
+Обережно використовуйте зарезервовані слова
 **********
 
-| Avoid using reserved words in programming languages or other platform constraints.
-| Reserved words are those that hold special meaning within a programming language and cannot be used as variable names, function names, class names, and so on.
-| These words usually reflect the syntax and semantics of the language, defining the structure and logic of a program.
+| Уникайте використання зарезервованих слів у мовах програмування або інших обмеженнях платформ.  
+| Зарезервовані слова — це ті, що мають спеціальне значення в межах мови програмування і не можуть використовуватися як імена змінних, функцій, класів тощо.  
+| Ці слова зазвичай відображають синтаксис і семантику мови, визначаючи структуру та логіку програми.
 
-| In SQL, reserved words include terms like ``SELECT``, ``FROM``, ``WHERE``, ``JOIN``, ``GROUP BY``, ``ORDER BY``, and more. 
-| These words are used for querying databases and manipulating data.
+| У SQL зарезервовані слова включають такі терміни, як ``SELECT``, ``FROM``, ``WHERE``, ``JOIN``, ``GROUP BY``, ``ORDER BY`` та інші.  
+| Ці слова використовуються для запитів до баз даних і маніпулювання даними.
 
-| In Python, reserved words include ``if``, ``else``, ``while``, ``for``, ``import``, ``def``, ``class``, ``try``, ``except``, and others.
-| These words are used for defining conditions, loops, functions, classes, exceptions, and various aspects of a program.
+| У Python зарезервовані слова включають ``if``, ``else``, ``while``, ``for``, ``import``, ``def``, ``class``, ``try``, ``except`` та інші.  
+| Ці слова використовуються для визначення умов, циклів, функцій, класів, виключень та різних аспектів програми.
 
 
-Versioning, modifications, and dates
+Версії, модифікації та дати
 **********
 
-Incorporating versions into document names or dates into file names can assist in identifying chronological order and aid in search and sorting.
+Включення версій у назви документів або дат у назви файлів може допомогти у визначенні хронологічного порядку та полегшити пошук і сортування.
 
-| It's recommended to use dates in the ISO8601 standard format ``YYYY-MM-DD``. 
-| For instance:
+| Рекомендується використовувати дати у форматі стандарту ISO8601 ``YYYY-MM-DD``.  
+| Наприклад:  
 | "2021-08-02 v2 Policies and procedures"
 
-Additionally, different stages or statuses of a document or process can be denoted such as ``vDraft``, ``vFinal``, ``vExecuted``, ``vPreRead``, etc.
+Додатково, різні етапи або статуси документа чи процесу можна позначати такими позначеннями, як ``vDraft``, ``vFinal``, ``vExecuted``, ``vPreRead`` тощо.
 
 
-Name testing
+Тестування назв
 **********
 
-| Test names for readability, clarity, and relevance to the context.
-
-| One way to avoid surprises is to engage people in collaborative efforts when choosing names for resources.
-| Information architects often use collective design methods for this purpose, such as card sorting or free placement.
+| Тестуйте назви на зрозумілість, чіткість і відповідність контексту.  
+| Один зі способів уникнути непередбачених проблем — залучати людей до спільної роботи при виборі назв для ресурсів.  
+| Інформаційні архітектори часто використовують колективні методи проектування для цієї мети, такі як карткова сортування або вільне розміщення.
 
 .. toctree::
   :caption: Table of Contents
