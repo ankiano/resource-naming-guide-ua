@@ -428,4 +428,4 @@ e.g.: PERMANENT_EMPLOYEE_LAST_NAME
 .. toctree::
   :caption: Table of Contents
   :numbered:
-  :hidden:
+  :maxdepth: 2
